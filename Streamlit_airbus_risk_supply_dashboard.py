@@ -105,6 +105,8 @@ def export_ppt():
     # Détails du fournisseur
     slide.placeholders[1].text = (
         f"Fournisseur: {supplier_data['Supplier']}
+f"Fournisseur: {supplier_data['Supplier']}\\n"
+
 "
         f"Pays: {supplier_data['Country']}
 "
