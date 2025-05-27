@@ -69,7 +69,7 @@ df['Predicted Stock Out'] = df['Average Delay'] * 2
 # Cartographie des dépendances critiques (BOM)
 critical_components = {
     'Supplier A': ['Moteur', 'Avionique'],
-    'Supplier B': ['Fuselage', 'Train d'atterrissage'],
+    'Supplier B': ['Fuselage', "Train d'atterrissage"],
     'Supplier C': ['Systèmes électriques', 'Hydraulique']
 }
 
